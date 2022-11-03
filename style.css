@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 * {
-  font-family: "Poppins",
-    sans-serif;
+  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
   margin: 0;
   background-color: #fff;
@@ -24,14 +23,14 @@
   height: 59px;
 }
 
-.nav-container
-  li
-  a {
+.nav-container li a {
   text-decoration: none;
+  display: flex;
 }
 
 .nav__links {
   margin: 0;
+  flex: 1 1 200px;
   background-color: transparent;
   list-style: none;
 }
@@ -60,8 +59,7 @@ button.login {
   background-color: transparent;
   color: #00a651;
   border-color: #00a651;
-  font-family: "Poppins",
-    sans-serif;
+  font-family: "Poppins", sans-serif;
   width: 100px;
   height: 30px;
   border-radius: 5px;
@@ -72,18 +70,13 @@ button.login:hover {
 }
 
 .jumbotron {
-  background-color: rgb(
-    217,
-    228,
-    236
-  );
+  background-color: rgb(217, 228, 236);
   background-image: url("asset/bg-jumbotron.svg");
   padding: 50px 10%;
   width: 1920px;
   height: 450px;
 }
-.jumbotron
-  h1.display-4,
+.jumbotron h1.display-4,
 p {
   background-color: transparent;
 }
@@ -120,32 +113,15 @@ button.cta-chatDoc {
 }
 
 button.cta-reminder:hover {
-  background-color: rgba(
-    0,
-    0,
-    0,
-    0.02
-  );
+  background-color: rgba(0, 0, 0, 0.02);
 }
 
 button.cta-chatDoc:hover {
-  background-color: rgba(
-    0,
-    0,
-    0,
-    0.02
-  );
+  background-color: rgba(0, 0, 0, 0.02);
 }
 
 .wrap {
-  box-shadow: 0px
-    15px 4px
-    rgba(
-      0,
-      0,
-      0,
-      0.25
-    );
+  box-shadow: 0px 15px 4px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
   max-width: 500px;
   margin: auto;
@@ -199,11 +175,7 @@ input[type="submit"] {
   margin-top: 30px;
   color: #fff;
   font-weight: 250;
-  background: linear-gradient(
-    105deg,
-    #00a651 0%,
-    #557b68 109.37%
-  );
+  background: linear-gradient(105deg, #00a651 0%, #557b68 109.37%);
   border: none;
   cursor: pointer;
   justify-content: center;
@@ -229,12 +201,7 @@ input[type="submit"]:hover {
   z-index: 1;
   top: 0;
   left: 0;
-  background: rgba(
-    0,
-    0,
-    0,
-    0.7
-  );
+  background: rgba(0, 0, 0, 0.7);
 }
 .closebtn {
   position: absolute;
@@ -247,8 +214,7 @@ input[type="submit"]:hover {
 }
 
 #OverlayReminder {
-  animation: fadeIn
-    0.5s;
+  animation: fadeIn 0.5s;
 }
 
 @keyframes fadeIn {
