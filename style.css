@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+* {
+  font-family: "Poppins",
+    sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  background-color: #fff;
+}
+.body {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.logo {
+  margin-right: auto;
+  width: 100px;
+  height: 30px;
+  background-image: url("asset/Frame.svg");
+  background-color: transparent;
+  background-repeat: no-repeat;
+}
+.nav-container {
+  height: 59px;
+}
+
+.nav-container
+  li
+  a {
+  text-decoration: none;
+}
+
+.nav__links {
+  margin: 0;
+  background-color: transparent;
+  list-style: none;
+}
+
+.nav__links li {
+  background-color: transparent;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links a {
+  background-color: transparent;
+}
+
+nav {
+  list-style: none;
+  align-items: center;
+  background: #ffff;
+  height: 59px;
+  justify-content: flex-end;
+  display: flex;
+  padding: 15px 5%;
+}
+
+button.login {
+  background-color: transparent;
+  color: #00a651;
+  border-color: #00a651;
+  font-family: "Poppins",
+    sans-serif;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+}
+button.login:hover {
+  background-color: #00a651;
+  color: azure;
+}
+
+.jumbotron {
+  background-color: rgb(
+    217,
+    228,
+    236
+  );
+  background-image: url("asset/bg-jumbotron.svg");
+  padding: 50px 10%;
+  width: 1920px;
+  height: 450px;
+}
+.jumbotron
+  h1.display-4,
+p {
+  background-color: transparent;
+}
+.jumbotron .logo {
+  height: 67px;
+  width: 225px;
+  background-image: url("asset/medCa.svg");
+}
+
+.jumbotron-fitur {
+  background-color: transparent;
+  position: absolute;
+  width: 523px;
+  height: 136px;
+  left: 150px;
+  top: 638px;
+}
+
+button.cta-reminder {
+  border-radius: 15px;
+  background-image: url("asset/Ellipse 1.svg");
+  background-repeat: no-repeat;
+  border-color: transparent;
+  width: 140px;
+  height: 155px;
+}
+button.cta-chatDoc {
+  border-radius: 15px;
+  background-image: url("asset/Chat_Docter.svg");
+  background-repeat: no-repeat;
+  border-color: transparent;
+  width: 140px;
+  height: 155px;
+}
+
+button.cta-reminder:hover {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.02
+  );
+}
+
+button.cta-chatDoc:hover {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.02
+  );
+}
+
+.wrap {
+  box-shadow: 0px
+    15px 4px
+    rgba(
+      0,
+      0,
+      0,
+      0.25
+    );
+  border-radius: 5px;
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background-color: #ffb9b9;
+  margin-top: 100px;
+}
+
+form {
+  background-color: transparent;
+  margin-top: 50px;
+}
+
+input {
+  height: 35px;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  border: none;
+  outline: none;
+  background-color: #f5dbdb;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.wrap h2 {
+  color: #fff;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  padding: 0;
+  font-size: 24px;
+  text-align: center;
+  background-color: transparent;
+}
+
+.wrap h3 {
+  color: #fff;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  padding: 0;
+  font-size: 1em;
+  background-color: transparent;
+}
+
+input[type="submit"] {
+  width: 84px;
+  height: 45px;
+  font-size: 16px;
+  margin-top: 30px;
+  color: #fff;
+  font-weight: 250;
+  background: linear-gradient(
+    105deg,
+    #00a651 0%,
+    #557b68 109.37%
+  );
+  border: none;
+  cursor: pointer;
+  justify-content: center;
+  display: flex;
+}
+input[type="submit"]:hover {
+  background: #557b68;
+}
+
+.button-save {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: rgba(
+    0,
+    0,
+    0,
+    0.7
+  );
+}
+.closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  cursor: pointer;
+  color: #fff;
+  background-color: transparent;
+}
+
+#OverlayReminder {
+  animation: fadeIn
+    0.5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

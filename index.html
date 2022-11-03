@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <nav>
+                <div class="logo"></div>
+                <ul class="nav__links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#news">Artikel</a></li>
+                    <li><a href="#contact">Contact</a></li>                
+                </ul>
+                <a class="cta"><button class="login"> Login </button></a>
+            </nav>
+        </div>
+    </header>
+    <div class="jumbotron">
+        <div class="logo"></div>
+        <h1 class="display-4">Solusi yang tepat untuk kesehatan anda</h1>
+        <p>Chat dokter, kunjungi rumah sakit, beli obat, cek lab dan update informasi seputar kesehatan, semua bisa di medCa!</p>
+    </div>
+
+    <div id="OverlayReminder" class="overlay">
+        <span class="closebtn" onclick="closeReminder()"title="Close Reminder"> &#215</span>
+        <div class="wrap">
+            <h2>Add Reminder </h2>
+            <form>
+                <h3>Judul</h3>
+                <input type="text">
+                <h3>Tanggal</h3>
+                <input type="text">
+                <h3>Ulangi</h3>
+                <input type="text">
+                <h3>Time</h3>
+                <input type="text">
+                <div class="button-save">
+                    <input type="submit" value="Submit">
+                </div>
+                
+            </form>
+        </div>
+    </div>
+    <div id="OverlayChatDoc" class="overlay">
+        <span class="closebtn" onclick="closeChatDoc()"title="Close ChatDoc"> &#215</span>
+        <div class="wrap">
+            <h2>Chat Docter</h2>
+        </div>
+    </div>
+    <div class="jumbotron-fitur">
+        <button class="cta-reminder" onclick="openReminder()"></button>
+        <button class="cta-chatDoc" onclick="openChatDoc()"></button>
+    </div>
+    
+</body>
+</html>
