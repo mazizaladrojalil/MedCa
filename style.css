@@ -243,7 +243,7 @@ input[type="submit"]:hover {
   }
 }
 
-/* login form */
+/* login and register form */
 .form-container {
   margin: auto;
   padding-top: 20px;
@@ -266,3 +266,43 @@ input[type="submit"]:hover {
 .form-container .form-btn {
   margin-top: 10px;
 }
+/* end Login and register form */
+
+/* article  */
+.container .input {
+  border: 0;
+  outline: none;
+}
+
+.search-wrap {
+  padding-top: 15px;
+  width: 1500px;
+  margin: auto;
+}
+
+.search-wrap .search-box {
+  position: relative;
+  width: 1500px;
+}
+
+.search-wrap .search-box .input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  font-size: 16px;
+}
+
+.search-wrap .search-box .btn-common {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 100%;
+  background: #52635a;
+  z-index: 1;
+  cursor: pointer;
+}
+/* end article */
