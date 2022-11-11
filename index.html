@@ -32,13 +32,21 @@
             <h2>Add Reminder </h2>
             <form>
                 <h3>Judul</h3>
-                <input type="text">
-                <h3>Tanggal</h3>
-                <input type="text">
+                <input type="text" placeholder="Masukkan Judul">
+                <h3>Tanggal Dan waktu</h3>
+                <input type="datetime-local" id="reminderDateTime" name="reminderDateTime">
                 <h3>Ulangi</h3>
-                <input type="text">
-                <h3>Time</h3>
-                <input type="text">
+                <select name="repeatQuestion" id="repeatQuestion">
+                    <option selected disabled>Pilih Opsi</option>
+                    <option value="setiap_hari">Setiap Hari</option>
+                    <option value="senen">Senin</option>
+                    <option value="selasa">Selasa</option>
+                    <option value="rabu">Rabu</option>
+                    <option value="kamis">Kamis</option>
+                    <option value="jumat">Jumat</Jption>
+                    <option value="sabtu">Sabtu</option>
+                    <option value="minggu">Minggu</option>
+                  </select>
                 <div class="button-save">
                     <input type="submit" value="Submit">
                 </div>
