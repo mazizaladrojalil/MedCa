@@ -27,44 +27,56 @@
         <a class="cta"><button class="read-more"> READ MORE </button></a>
     </div>
 
-    <div id="OverlayReminder" class="overlay">
+    <div id="OverlayReminder" class="hide">
         <span class="closebtn" onclick="closeReminder()"title="Close Reminder"> &#215</span>
         <div class="wrap">
-            <h2>Add Reminder </h2>
-            <form>
-                <h3>Judul</h3>
-                <input type="text" placeholder="Masukkan Judul">
-                <h3>Tanggal Dan waktu</h3>
-                <input type="datetime-local" id="reminderDateTime" name="reminderDateTime">
-                <h3>Ulangi</h3>
-                <select name="repeatQuestion" id="repeatQuestion">
-                    <option selected disabled>Pilih Opsi</option>
-                    <option value="setiap_hari">Setiap Hari</option>
-                    <option value="senen">Senin</option>
-                    <option value="selasa">Selasa</option>
-                    <option value="rabu">Rabu</option>
-                    <option value="kamis">Kamis</option>
-                    <option value="jumat">Jumat</Jption>
-                    <option value="sabtu">Sabtu</option>
-                    <option value="minggu">Minggu</option>
-                  </select>
-                <div class="button-save">
-                    <input type="submit" value="Submit">
-                </div>
-                
-            </form>
+            <div class="Title"><h2> Reminder </h2></div>
+            <div class="container-list-reminder">
+                <ul class="list-reminder">
+                    
+                </ul>
+            </div>
+            <div class="cta-addReminder">
+                <button id="newReminder" onclick="openBottom()">Tambah Reminder</button>
+            </div>
         </div>
-    </div>
-    <div id="OverlayChatDoc" class="overlay">
-        <span class="closebtn" onclick="closeChatDoc()"title="Close ChatDoc"> &#215</span>
-        <div class="wrap">
-            <h2>Chat Docter</h2>
+        <div id="addBottom" class="hide-addReminder">
+            <div class="wrap">
+                <form id="newReminder">
+                    <h3>Judul</h3>
+                    <input id="judulRemind"type="text" placeholder="Masukkan Judul"onblur="getVal()">
+                    <h3>Tanggal Dan waktu</h3>
+                    <input type="datetime-local" id="reminderDateTime" name="reminderDateTime">
+                    <h3>Ulangi</h3>
+                    <select name="repeatQuestion" id="repeatQuestion">
+                        <option selected disabled>Pilih Opsi</option>
+                        <option value="setiap_hari">Setiap Hari</option>
+                        <option value="senen">Senin</option>
+                        <option value="selasa">Selasa</option>
+                        <option value="rabu">Rabu</option>
+                        <option value="kamis">Kamis</option>
+                        <option value="jumat">Jumat</Jption>
+                        <option value="sabtu">Sabtu</option>
+                        <option value="minggu">Minggu</option>
+                      </select>
+                      <div class="button-submit">
+                        <span class="submitButton"  onclick="submit()"title="Submit"> Submit</span>
+                      </div>
+                      
+        
+                        
+                    </div>
+                    
+                </form>
+            </div>
+            <script src="main.js" defer></script>
         </div>
+        
     </div>
+    
     <div class="jumbotron-fitur">
         <button class="cta-reminder" onclick="openReminder()"></button>
         <button class="cta-chatDoc" onclick="openChatDoc()"></button>
     </div>
-    
 </body>
 </html>

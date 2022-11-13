@@ -11,6 +11,27 @@
   display: flex;
 }
 
+/*Scroll Bar Custom*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
 .logo {
   margin-right: auto;
   width: 100px;
@@ -131,7 +152,7 @@ button.cta-chatDoc:hover {
 .wrap {
   font-family: 'Nunito';
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 13px;
   line-height: 18px;
   border-radius: 5px;
@@ -139,12 +160,12 @@ button.cta-chatDoc:hover {
   margin: auto;
   padding: 20px;
   background-color: #ffb9b9;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 form {
   background-color: transparent;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 input {
@@ -169,9 +190,86 @@ select {
   background-color: #f5dbdb;
 }
 
+
+.wrap .cta-addReminder {
+  justify-content: center;
+  display: flex;
+  padding-top: 10px;
+  background-color: transparent;
+}
+.wrap .cta-addReminder button {
+  font-weight: 100;
+  color: #fff;
+  width: 160px;
+  height: 45px;
+  background-color: #E62B2B;
+  border-radius: 15px;
+  border-color: transparent;
+}
+.wrap .cta-addReminder button:hover {
+  background-color: #a11111;
+}
+.wrap .container-list-reminder{
+  overflow-y: scroll;
+  margin: 20px auto;
+  margin-top: 10px;
+  padding: 10px;
+  height: 250px;
+  background-color: #fff;
+}
+
+.container-list-reminder li {
+  background-color: transparent;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 0 0 0 0 1;
+  padding: 5px;
+  list-style-type: none;
+}
+
+.container-list-reminder {
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}
+.list-reminder .list {
+  width: 450px;
+  height: 580px;
+  overflow-y: scroll;
+  margin: 20px auto;
+}
+
+.list-reminder .btn-check {
+  color: #fff;
+  background-color: rgb(55, 102, 255);
+  border: none;
+  width: 70px;
+  height: 35px;
+}
+
+.list-reminder .btn-delete {
+  color: #fff;
+  background-color: red;
+  border: none;
+  width: 60px;
+  height: 35px;
+  margin-top: 10px;
+  margin: 0;
+  border-radius: 5px;
+}
+
+.wrap .Title {
+  border-radius: 15px;
+  justify-content: center;
+  display: flex;
+  height: 70px;
+  max-width: 500px;
+  background-color: #E62B2B;;
+}
+
 .wrap h2 {
   color: #fff;
-  margin-top: 25px;
+  margin-top: 20px;
   margin-bottom: 10px;
   padding: 0;
   font-size: 24px;
@@ -213,7 +311,7 @@ input[type="submit"]:hover {
   justify-content: center;
 }
 
-.overlay {
+.hide {
   height: 100%;
   width: 100%;
   display: none;
@@ -222,6 +320,16 @@ input[type="submit"]:hover {
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.7);
+}
+.hide-addReminder {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: auto;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0);
 }
 .closebtn {
   position: absolute;
@@ -233,8 +341,28 @@ input[type="submit"]:hover {
   background-color: transparent;
 }
 
+.button-submit {
+  padding: 20px;
+  height: auto;
+  justify-content: center;
+  display: flex;
+  background-color: transparent;
+}
+
+.submitButton {
+  font-size: 15px;
+  cursor: pointer;
+  color:#00a651;
+  background-color: transparent;
+}
+
+
 #OverlayReminder {
   animation: fadeIn 0.5s;
+}
+
+#addBottom {
+  float: right;
 }
 
 @keyframes fadeIn {
@@ -256,13 +384,26 @@ input[type="submit"]:hover {
 }
 
 /* login and register form */
+.background{
+  margin:auto;
+  background-image: url('asset/ornament_login.svg');
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+
+
 .form-container {
+  background-color: transparent;
   margin: auto;
   padding-top: 20px;
   border-radius: 5px;
   width: 500px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.02);
 }
+
 
 .form-container h3 {
   text-align: center;
@@ -271,6 +412,7 @@ input[type="submit"]:hover {
 }
 
 .form-container h4 {
+  background-color: transparent;
   font-size: 15px;
   padding-top: 10pxs;
 }
@@ -318,3 +460,8 @@ input[type="submit"]:hover {
   cursor: pointer;
 }
 /* end article */
+
+
+/* test reguister */
+
+/* end test reguister */
