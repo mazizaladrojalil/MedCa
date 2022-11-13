@@ -32,6 +32,12 @@
   background: #555; 
 }
 
+/*Animation*/
+@keyframes greentoDark {
+  from {background-color:#00a651;}
+  to {background-color: #08532d;}
+}
+
 .logo {
   margin-right: auto;
   width: 100px;
@@ -116,12 +122,38 @@ p {
   top: 638px;
 }
 
-button.read-more {
-  width: 210px;
-  height: 61px;
+.read-more {
+  border-radius: 4px;
   background-color: #00a651;
-  color: #fff;
-  border-radius: 10px;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 200px;
+  cursor: pointer;
+  margin: 15px;
+}
+
+.read-more span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  background-color: transparent;
+}
+
+.read-more span:after{
+  content: '\00bb';
+  position:relative;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.read-more:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 button.cta-reminder {
