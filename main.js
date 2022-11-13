@@ -1,4 +1,9 @@
 function openReminder(){
+    document.getElementById("addBottom").style.display = "none";
+    document.getElementById("addBottom").style.display = "none";
+    document.getElementById("judulRemind").value = "";
+    document.getElementById("reminderDateTime").value = "";
+    document.getElementById("repeatQuestion").value ="";
     document.getElementById("OverlayReminder").style.display = "block";
 }
 
