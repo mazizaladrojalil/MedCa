@@ -5,11 +5,7 @@
   margin: 0;
   background-color: #fff;
 }
-.body {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
+
 
 /*Scroll Bar Custom*/
 /* width */
@@ -86,6 +82,12 @@ nav {
   padding: 15px 5%;
 }
 
+.footer{
+  position: absolute;
+  left: 0px;
+  top: 1490px;
+}
+
 button.login {
   background-color: transparent;
   color: #00a651;
@@ -104,7 +106,7 @@ button.login:hover {
   background-color: rgb(217, 228, 236);
   background-image: url("asset/bg-jumbotron.svg");
   padding: 50px 10%;
-  width: 1920px;
+  width: 100vw;
   height: 450px;
 }
 .jumbotron h1.display-4,
@@ -119,11 +121,51 @@ p {
 
 .jumbotron-fitur {
   background-color: transparent;
-  position: absolute;
-  width: 523px;
+  padding: 20px;
+  position: sticky;
+  width: 700px;
   height: 136px;
-  left: 150px;
-  top: 638px;
+  left: 168px;
+  margin-top: 100px;
+}
+
+.container-clock {
+  border-radius: 10px;
+  background-image: url('asset/Clock.svg');
+  background-color: #fff;
+  position:absolute;
+  width: 423px;
+  height: 137px;
+  top: 630px;
+  left: 1327px;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+}
+
+.artikel{
+  margin-top: 180px;
+  margin-left: 80px;
+}
+.artikel h3 {
+  margin-bottom: 20px;
+}
+
+.artikel .artikel-picture{
+  align-items: center;
+  display: flex;
+}
+
+.artikel .artikel-picture .content{
+  margin-top: 20px;
+  font-size: 15px;
+  width: 450px;
+  height: 76px;
+  margin-left: 20px;
+}
+.artikel .artikel-picture .content h4{
+  margin-top: 10px;
+}
+.artikel .artikel-picture .content p {
+  color: #e62b2b;
 }
 
 .read-more {
@@ -160,30 +202,78 @@ p {
   right: 0;
 }
 
-button.cta-reminder {
+button.cta-fitur-reminder{
+  margin-left: 33px;
   border-radius: 15px;
   background-image: url("asset/Ellipse 1.svg");
   background-repeat: no-repeat;
   border-color: transparent;
-  width: 140px;
-  height: 155px;
-}
-button.cta-chatDoc {
+  width: 130px;
+  height: 174px;
   border-radius: 15px;
-  background-image: url("asset/Chat_Docter.svg");
+  border: 2px solid #ffb9b9;
+}
+
+button.cta-fitur-reminder:hover{
+  border: 2px solid #fff;
+  transition: all .3s linear;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+}
+
+
+button.cta-fitur-buatjanji{
+  margin-left: 33px;
+  border-radius: 15px;
+  background-image: url("asset/Ellipse 2.svg");
   background-repeat: no-repeat;
   border-color: transparent;
-  width: 140px;
-  height: 155px;
+  width: 130px;
+  height: 174px;
+  border: 2px solid #ffb9b9;
+  border-radius: 15px;
 }
 
-button.cta-reminder:hover {
-  background-color: rgba(0, 0, 0, 0.02);
+button.cta-fitur-buatjanji:hover{
+  border: 2px solid #fff;
+  transition: all .3s linear;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
 }
 
-button.cta-chatDoc:hover {
-  background-color: rgba(0, 0, 0, 0.02);
+
+button.cta-fitur-rumahSakit{
+  margin-left: 33px;
+  border-radius: 15px;
+  background-image: url("asset/Elipse 3.svg");
+  background-repeat: no-repeat;
+  border-color: transparent;
+  width: 130px;
+  height: 174px;
+  border-radius: 15px;
+  border: 2px solid #ffb9b9;
 }
+button.cta-fitur-rumahSakit:hover{
+  border: 2px solid #fff;
+  transition: all .3s linear;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+}
+
+.clock {
+  margin-left: 40px;
+  background-color: transparent;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #FFCBCB;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 75px;
+  letter-spacing: 7px;
+}
+
+
 
 .wrap {
   font-family: "Nunito";
@@ -408,6 +498,15 @@ input[type="submit"]:hover {
   }
 }
 
+@keyframes fadeIn-low {
+  50% {
+    opacity: 60%;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 @keyframes fadeOut {
   0% {
     opacity: 1;
@@ -418,9 +517,40 @@ input[type="submit"]:hover {
 }
 
 /* login and register form */
+
+.overlay-login {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.ornament_1 {
+  position: absolute;
+  top: -75px;
+  right: 0;
+  left:0;
+  background-image: url('asset/ornament_1.svg');
+  background-color: transparent;
+  width: 1098.06px;
+  height: 500px;
+}
+
+.ornament_2 {
+  position: fixed;
+  bottom: -75px;
+  right: -99px;
+  background-image: url('asset/ornament_2.svg');
+  background-color: transparent;
+  width: 1098.06px;
+  height: 500px;
+}
+
 .background {
   margin: auto;
-  background-image: url("asset/ornament_login.svg");
   justify-content: center;
   display: flex;
   width: 100%;
@@ -428,12 +558,13 @@ input[type="submit"]:hover {
 }
 
 .form-container {
+  padding: 20px;
   background-color: transparent;
   margin: auto;
   padding-top: 20px;
   border-radius: 5px;
   width: 500px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.02);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.07);
 }
 
 .form-container h3 {
