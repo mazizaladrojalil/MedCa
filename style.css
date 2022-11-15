@@ -558,12 +558,13 @@ input[type="submit"]:hover {
 }
 
 .form-container {
+  padding: 20px;
   background-color: transparent;
   margin: auto;
   padding-top: 20px;
   border-radius: 5px;
   width: 500px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.02);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.07);
 }
 
 .form-container h3 {
