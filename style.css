@@ -505,8 +505,7 @@ input[type="submit"]:hover {
 }
 
 /* login and register form */
-
-.form-container input {
+input {
   height: 35px;
   width: 100%;
   padding: 10px;
