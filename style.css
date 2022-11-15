@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
@@ -10,6 +10,7 @@
 a {
   background-color: transparent;
 }
+
 /*Scroll Bar Custom*/
 /* width */
 ::-webkit-scrollbar {
@@ -85,7 +86,6 @@ nav {
   padding: 15px 5%;
 }
 
-
 button.login {
   background-color: transparent;
   color: #00a651;
@@ -160,14 +160,14 @@ p {
   margin-left: 20px;
 }
 
-.artikel .artikel-picture .content a :hover{
-  transition: all .3s linear;
+.artikel .artikel-picture .content a :hover {
+  transition: all 0.3s linear;
   border-radius: 15px;
   background-color: transparent;
   box-shadow: 0px 4px 24px rgba(209, 77, 77, 0.808);
 }
 
-.artikel .artikel-picture .content h4{
+.artikel .artikel-picture .content h4 {
   margin-top: 10px;
 }
 .artikel .artikel-picture .content p {
@@ -605,8 +605,8 @@ input[type="submit"]:hover {
 
 .medca-news ul {
   position: absolute;
-  left: 90px;
-  top: 160px;
+  left: 550px;
+  top: 175px;
   width: auto;
   background-color: transparent;
   list-style: none;
@@ -714,6 +714,8 @@ input[type="submit"]:hover {
 }
 
 /* end article */
+
+/* hospital */
 .jumbotron-hospital {
   background-image: url("asset/bg-rumahsakit.png");
   width: auto;
@@ -733,30 +735,99 @@ input[type="submit"]:hover {
 }
 
 .jumbotron-hospital .search-box {
+  margin-left: 100px;
   margin-top: 40px;
   width: 50%;
-  margin-top: 100px;
+  margin-top: 40px;
+  /* background-color: transparent; */
+  border-radius: 10px;
 }
 
 .jumbotron-hospital .search-box input[type="text"] {
   padding: 30px;
   padding-right: 20px;
   background-color: transparent;
+  border-radius: 10px;
+}
+
+.judul {
+  background-color: transparent;
+  color: #fff;
+  margin-left: 100px;
+  margin-top: 115px;
+}
+
+.detail-button {
+  background-color: transparent;
+}
+
+.detail-button input[type="button"] {
+  background-color: #00a651;
+  width: 250px;
+  margin-left: 100px;
+  justify-content: center;
+  display: flex;
+  padding-top: 5px;
+}
+
+.content-hospital {
+  position: absolute;
+  right: 200px;
+  top: 178px;
+  width: 450px;
+  height: 120px;
+  background-color: transparent;
+}
+
+.rekomendasi-RS {
+  background-color: transparent;
+  color: #e1295b;
+}
+
+.judul-rekomendasi {
+  color: #fff;
+  background-color: transparent;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.waktu {
+  color: #c9cdd0;
+  background-color: transparent;
+}
+
+.waktu li {
+  display: inline-block;
+  background-color: transparent;
+}
+
+.more {
+  color: #00a651;
+  padding-left: 10px;
+  background-color: transparent;
+}
+
+/* end hospital */
+
+.deskripsi {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 25px;
+  margin-left: 100px;
+  width: 1100px;
 }
 
 /* Buat Janji Dokter*/
 
-.container-janji{
+.container-janji {
   background-color: transparent;
 }
 
-.container-janji img{ 
-
+.container-janji img {
   background-color: transparent;
 }
 
 /* end Buat Janji Dokter */
-
 
 /* test reguister */
 
