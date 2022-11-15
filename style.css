@@ -675,15 +675,41 @@ input[type="submit"]:hover {
 .quote {
   text-align: center;
   position: absolute;
-  left: 15%;
-
+  left: 20%;
   background-color: #e1295b;
-  width: 70%;
-  border: 2px #e1295b;
+  width: 60%;
   padding: 5px;
   padding-bottom: 5px;
   box-sizing: border-box;
   margin-top: 80px;
+}
+
+.breaking-news {
+  text-align: center;
+  margin-left: 155px;
+  margin-top: 300px;
+  color: #e1295b;
+  width: 300px;
+  border-bottom: 15px solid #e1295b;
+}
+
+.list-breaking-news {
+  margin-left: 155px;
+  margin-top: 40px;
+}
+
+.list-breaking-news dd {
+  display: inline-block;
+  padding: 20px;
+}
+
+.list-breaking-news img {
+  float: left;
+}
+
+.list-breaking-news h1 {
+  font-size: 24px;
+  max-width: 255px;
 }
 
 /* end article */
