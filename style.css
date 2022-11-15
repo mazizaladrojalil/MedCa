@@ -5,10 +5,7 @@
   margin: 0;
   background-color: #fff;
 }
-body {
-  height: 1546px;
-  width: 100vw;
-}
+
 
 /*Scroll Bar Custom*/
 /* width */
@@ -520,9 +517,40 @@ input[type="submit"]:hover {
 }
 
 /* login and register form */
+
+.overlay-login {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.ornament_1 {
+  position: absolute;
+  top: -75px;
+  right: 0;
+  left:0;
+  background-image: url('asset/ornament_1.svg');
+  background-color: transparent;
+  width: 1098.06px;
+  height: 500px;
+}
+
+.ornament_2 {
+  position: fixed;
+  bottom: -75px;
+  right: -99px;
+  background-image: url('asset/ornament_2.svg');
+  background-color: transparent;
+  width: 1098.06px;
+  height: 500px;
+}
+
 .background {
   margin: auto;
-  background-image: url("asset/ornament_login.svg");
   justify-content: center;
   display: flex;
   width: 100%;
