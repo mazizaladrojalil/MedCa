@@ -84,11 +84,6 @@ nav {
   padding: 15px 5%;
 }
 
-.footer{
-  position: absolute;
-  left: 0px;
-  top: 1490px;
-}
 
 button.login {
   background-color: transparent;
@@ -163,6 +158,7 @@ p {
   height: 76px;
   margin-left: 20px;
 }
+
 .artikel .artikel-picture .content a :hover{
   transition: all .3s linear;
   border-radius: 15px;
@@ -691,6 +687,20 @@ input[type="submit"]:hover {
 }
 
 /* end article */
+
+/* Buat Janji Dokter*/
+
+.container-janji{
+  background-color: transparent;
+}
+
+.container-janji img{ 
+  
+  background-color: transparent;
+}
+
+/* end Buat Janji Dokter */
+
 
 /* test reguister */
 
