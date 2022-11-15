@@ -6,9 +6,12 @@
   background-color: #fff;
 }
 
+<<<<<<< Updated upstream
 a {
   background-color: transparent;
 }
+=======
+>>>>>>> Stashed changes
 /*Scroll Bar Custom*/
 /* width */
 ::-webkit-scrollbar {
@@ -84,6 +87,14 @@ nav {
   padding: 15px 5%;
 }
 
+<<<<<<< Updated upstream
+=======
+.footer {
+  position: absolute;
+  left: 0px;
+  top: 1490px;
+}
+>>>>>>> Stashed changes
 
 button.login {
   background-color: transparent;
@@ -128,9 +139,9 @@ p {
 
 .container-clock {
   border-radius: 10px;
-  background-image: url('asset/Clock.svg');
+  background-image: url("asset/Clock.svg");
   background-color: #fff;
-  position:absolute;
+  position: absolute;
   width: 423px;
   height: 137px;
   top: 630px;
@@ -138,7 +149,7 @@ p {
   box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
 }
 
-.artikel{
+.artikel {
   margin-top: 180px;
   margin-left: 80px;
 }
@@ -146,18 +157,19 @@ p {
   margin-bottom: 20px;
 }
 
-.artikel .artikel-picture{
+.artikel .artikel-picture {
   align-items: center;
   display: flex;
 }
 
-.artikel .artikel-picture .content{
+.artikel .artikel-picture .content {
   margin-top: 20px;
   font-size: 15px;
   width: 450px;
   height: 76px;
   margin-left: 20px;
 }
+<<<<<<< Updated upstream
 
 .artikel .artikel-picture .content a :hover{
   transition: all .3s linear;
@@ -167,6 +179,9 @@ p {
 }
 
 .artikel .artikel-picture .content h4{
+=======
+.artikel .artikel-picture .content h4 {
+>>>>>>> Stashed changes
   margin-top: 10px;
 }
 .artikel .artikel-picture .content p {
@@ -207,7 +222,7 @@ p {
   right: 0;
 }
 
-button.cta-fitur-reminder{
+button.cta-fitur-reminder {
   margin-left: 33px;
   border-radius: 15px;
   background-image: url("asset/Ellipse 1.svg");
@@ -219,14 +234,13 @@ button.cta-fitur-reminder{
   border: 2px solid #ffb9b9;
 }
 
-button.cta-fitur-reminder:hover{
+button.cta-fitur-reminder:hover {
   border: 2px solid #fff;
-  transition: all .3s linear;
+  transition: all 0.3s linear;
   box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
 }
 
-
-button.cta-fitur-buatjanji{
+button.cta-fitur-buatjanji {
   margin-left: 33px;
   border-radius: 15px;
   background-image: url("asset/Ellipse 2.svg");
@@ -238,14 +252,13 @@ button.cta-fitur-buatjanji{
   border-radius: 15px;
 }
 
-button.cta-fitur-buatjanji:hover{
+button.cta-fitur-buatjanji:hover {
   border: 2px solid #fff;
-  transition: all .3s linear;
+  transition: all 0.3s linear;
   box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
 }
 
-
-button.cta-fitur-rumahSakit{
+button.cta-fitur-rumahSakit {
   margin-left: 33px;
   border-radius: 15px;
   background-image: url("asset/Elipse 3.svg");
@@ -256,9 +269,9 @@ button.cta-fitur-rumahSakit{
   border-radius: 15px;
   border: 2px solid #ffb9b9;
 }
-button.cta-fitur-rumahSakit:hover{
+button.cta-fitur-rumahSakit:hover {
   border: 2px solid #fff;
-  transition: all .3s linear;
+  transition: all 0.3s linear;
   box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
 }
 
@@ -269,16 +282,14 @@ button.cta-fitur-rumahSakit:hover{
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-  color: #FFCBCB;
-  font-family: 'Roboto';
+  color: #ffcbcb;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 45px;
   line-height: 75px;
   letter-spacing: 7px;
 }
-
-
 
 .wrap {
   font-family: "Nunito";
@@ -537,8 +548,8 @@ input[type="submit"]:hover {
   position: absolute;
   top: -75px;
   right: 0;
-  left:0;
-  background-image: url('asset/ornament_1.svg');
+  left: 0;
+  background-image: url("asset/ornament_1.svg");
   background-color: transparent;
   width: 1098.06px;
   height: 500px;
@@ -548,7 +559,7 @@ input[type="submit"]:hover {
   position: fixed;
   bottom: -75px;
   right: -99px;
-  background-image: url('asset/ornament_2.svg');
+  background-image: url("asset/ornament_2.svg");
   background-color: transparent;
   width: 1098.06px;
   height: 500px;
@@ -636,6 +647,10 @@ input[type="submit"]:hover {
   border-color: #000;
 }
 
+.list-news li {
+  justify-content: center;
+}
+
 .list-news i {
   background-color: transparent;
   scale: 5;
@@ -713,6 +728,35 @@ input[type="submit"]:hover {
 }
 
 /* end article */
+.jumbotron-hospital {
+  background-image: url("asset/bg-rumahsakit.png");
+  width: auto;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo-medca-hospital {
+  margin: auto;
+  width: 294px;
+  height: 79px;
+  background-image: url("asset/MedcaHospital.svg");
+  background-color: transparent;
+  background-repeat: no-repeat;
+}
+
+.jumbotron-hospital .search-box {
+  margin-top: 40px;
+  width: 50%;
+  margin-top: ;
+}
+
+.jumbotron-hospital .search-box input[type="text"] {
+  padding: 30px;
+  padding-right: 20px;
+  background-color: transparent;
+}
 
 /* Buat Janji Dokter*/
 
