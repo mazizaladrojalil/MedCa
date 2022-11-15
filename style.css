@@ -7,12 +7,9 @@
   background-color: #fff;
 }
 
-<<<<<<< Updated upstream
 a {
   background-color: transparent;
 }
-=======
->>>>>>> Stashed changes
 /*Scroll Bar Custom*/
 /* width */
 ::-webkit-scrollbar {
@@ -88,14 +85,6 @@ nav {
   padding: 15px 5%;
 }
 
-<<<<<<< Updated upstream
-=======
-.footer {
-  position: absolute;
-  left: 0px;
-  top: 1490px;
-}
->>>>>>> Stashed changes
 
 button.login {
   background-color: transparent;
@@ -170,7 +159,6 @@ p {
   height: 76px;
   margin-left: 20px;
 }
-<<<<<<< Updated upstream
 
 .artikel .artikel-picture .content a :hover{
   transition: all .3s linear;
@@ -180,9 +168,6 @@ p {
 }
 
 .artikel .artikel-picture .content h4{
-=======
-.artikel .artikel-picture .content h4 {
->>>>>>> Stashed changes
   margin-top: 10px;
 }
 .artikel .artikel-picture .content p {
@@ -750,7 +735,7 @@ input[type="submit"]:hover {
 .jumbotron-hospital .search-box {
   margin-top: 40px;
   width: 50%;
-  margin-top: ;
+  margin-top: 100px;
 }
 
 .jumbotron-hospital .search-box input[type="text"] {
