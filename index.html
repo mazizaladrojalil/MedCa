@@ -10,7 +10,7 @@
     <header>
         <div class="nav-container">
             <nav>
-                <div class="logo"></div>
+                <a href="index.html"><div class="logo"></div></a>
                 <ul class="nav__links">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="article.html">Artikel</a></li>
@@ -61,23 +61,34 @@
                       </select>
                       <div class="button-submit">
                         <span class="submitButton"  onclick="submit()"title="Submit"> Submit</span>
-                      </div>
-                      
-        
-                        
-                    </div>
-                    
+                      </div>  
+                    </div>      
                 </form>
             </div>
             <script src="main.js" defer></script>
         </div>
-        
     </div>
-    
     <div class="jumbotron-fitur">
         <button class="cta-fitur-reminder" onclick="openReminder()"></button>
-        <button class="cta-fitur-buatjanji" onclick="openReminder()"></button>
+        <a href="buatjanji.html"><button class="cta-fitur-buatjanji"></button></a>
+        <a href="buatjanji.html"><button class="cta-fitur-rumahSakit"></button></a>
     </div>
     <div class="container-clock"><div id="MyClockDisplay" class="clock" onload="showTime()"></div></div>
+    <div class="artikel">
+        <h3>Baca Artikel Menarik tentang Kesehatan </h3>
+        <div class="artikel-picture">
+            <div class="content">
+                <a href="artikel.html"><img src="asset/ginjal-artikel-landingPage.svg" alt="ginjal"></a>
+                <h4>Kenali Berbagai Penyebab dan Faktor Risiko Kanker Ginjal</h4>
+                <p>Kanker ginjal</p>
+            </div>
+            <div class="content">
+                <a href="artikel.html"><img src="asset/ginjal1-artikel-landingPage.jpg" alt="ginjal1"></a>
+                <h4>Berbagai Manfaat Sayur Kangkung bagi Kesehatan Anak</h4>
+                <p>Makanan Sehat</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer"><img src="asset/footer.svg" alt=""></div>
 </body>
 </html>
