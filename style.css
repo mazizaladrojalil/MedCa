@@ -6,7 +6,9 @@
   background-color: #fff;
 }
 
-
+a {
+  background-color: transparent;
+}
 /*Scroll Bar Custom*/
 /* width */
 ::-webkit-scrollbar {
@@ -161,6 +163,13 @@ p {
   height: 76px;
   margin-left: 20px;
 }
+.artikel .artikel-picture .content a :hover{
+  transition: all .3s linear;
+  border-radius: 15px;
+  background-color: transparent;
+  box-shadow: 0px 4px 24px rgba(209, 77, 77, 0.808);
+}
+
 .artikel .artikel-picture .content h4{
   margin-top: 10px;
 }
