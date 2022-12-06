@@ -296,8 +296,6 @@ form {
   margin-top: 10px;
 }
 
-
-
 select {
   border-radius: 10px;
   border: none;
@@ -516,7 +514,7 @@ input {
   background-color: #f5dbdb;
   border: none;
   border-radius: 10px;
-  font-size: 15px;
+  font-size: 15px;
 }
 
 .overlay-login {
@@ -728,6 +726,7 @@ input {
   margin: auto;
   width: 294px;
   height: 79px;
+  content: 30px;
   background-image: url("asset/MedcaHospital.svg");
   background-color: transparent;
   background-repeat: no-repeat;
@@ -739,14 +738,14 @@ input {
   width: 50%;
   margin-top: 40px;
   /* background-color: transparent; */
-  border-radius: 10px;
+  border-radius: 30px;
 }
 
 .jumbotron-hospital .search-box input[type="text"] {
   padding: 30px;
   padding-right: 20px;
   background-color: transparent;
-  border-radius: 10px;
+  border-radius: 30px;
 }
 
 .judul {
@@ -833,27 +832,27 @@ input {
 /* end test reguister */
 
 /* isi artikel*/
-.logo-medca-news{
+.logo-medca-news {
   justify-content: center;
   display: flex;
   width: 100vw;
   height: 100px;
 }
 
-.content-bar li{
+.content-bar li {
   padding: 0px 20px;
   background-color: transparent;
   display: inline-block;
 }
 
-.content-bar .bg-content{
+.content-bar .bg-content {
   height: 50px;
   width: 1450px;
-  background-color:#00a651;
+  background-color: #00a651;
   border-radius: 15px;
 }
 
-.content-bar ul{
+.content-bar ul {
   flex: 1 1 1 1 200px;
   margin: 0;
   margin-top: 9px;
@@ -868,9 +867,8 @@ input {
   display: flex;
   height: 40px;
   width: 100vw;
-  background-color:transparent;
+  background-color: transparent;
 }
-
 
 .content-bar li {
   justify-content: center;
@@ -882,3 +880,64 @@ input {
   display: flex;
 }
 /*end isi artikel*/
+
+/* info-hospital */
+.jumbotron-rs {
+  background-image: url("asset/bg-rumahsakit.png");
+  width: auto;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.85;
+}
+
+.header-rs {
+  font-size: 70px;
+  color: #f6f7f8;
+  background-color: transparent;
+  justify-content: center;
+  display: flex;
+  padding-top: 200px;
+}
+
+.alamat-rs {
+  font-size: 20px;
+  color: #f6f7f8;
+  background-color: transparent;
+  justify-content: center;
+  display: flex;
+  padding-top: 15px;
+}
+
+.deskripsi-rs {
+  color: #f6f7f8;
+  background-color: transparent;
+  justify-content: center;
+  display: flex;
+  padding-top: 30px;
+  padding-left: 300px;
+  padding-right: 300px;
+  text-align: center;
+}
+
+.fitur-rs {
+  background-color: transparent;
+  margin-left: 330px;
+}
+
+.cta-fitur-rs {
+  height: 300px;
+  width: 400px;
+  border-radius: 20px;
+  color: #00a651;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.fitur-rs2 {
+  background-color: transparent;
+  margin-left: 330px;
+}
+
+/* end info-hospital */
