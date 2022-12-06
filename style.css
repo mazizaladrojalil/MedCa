@@ -924,6 +924,7 @@ input {
 .fitur-rs {
   background-color: transparent;
   margin-left: 330px;
+  margin-top: 15px;
 }
 
 .cta-fitur-rs {
@@ -938,6 +939,8 @@ input {
 .fitur-rs2 {
   background-color: transparent;
   margin-left: 330px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /* end info-hospital */
