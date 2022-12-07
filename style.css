@@ -909,6 +909,66 @@ input {
 }
 
 
-
-<<<<<<< Updated upstream
 /*end chat docter*/
+
+.buatjanji{
+  /* align-items: center;
+  justify-content: center;
+  display: flex; */
+  background-color: transparent; 
+  /* height: 76px;
+  width: 100vw; */
+}
+
+.logo-medca-dokter {
+  margin: 40px auto;
+  background: url("/asset/medca-Dokter.svg");
+  background-color: transparent;
+  height: 76px;
+  width: 282px;
+  background-repeat: no-repeat;
+}
+
+.header-buatjanji{
+  margin: auto;
+  border-style: solid;
+  /* box-sizing: border-box; */
+  border-color: #00A651;
+  text-align: center;
+  width: 80%;
+  border-radius: 20px;
+  background-color: #00A651;
+  color: #F6F7F8;
+}
+
+.pilih-kategori {
+  justify-content: center;
+  display: flex;
+  padding-top: 40px;
+}
+
+.pilih-dokter {
+  background-color: transparent;
+}
+
+.dokter-1 {
+  margin: auto;
+  padding: 20px;
+  border-style: solid;
+  border-color: transparent;
+  width: 800px;
+  height: 300px;
+  background-color: #F6F7F8;
+  overflow: hidden;
+}
+
+img.foto-dokter{
+  float: left;
+  padding: 20px;
+}
+
+.wrap-dokter{
+  padding: 40px;
+  float: left;
+}
+/*Buat Janji*/
