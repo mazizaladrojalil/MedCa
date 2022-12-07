@@ -908,4 +908,75 @@ input {
 
 
 
+<<<<<<< Updated upstream
 /*end chat docter*/
+=======
+/* end info-hospital */
+
+/* form-buatjanji */
+.buatjanji {
+  background-color: transparent;
+}
+
+.medca-dokter-logo {
+  margin: 20px auto;
+  width: 294px;
+  height: 79px;
+  content: 30px;
+  background-image: url("asset/medca-Dokter.svg");
+  background-color: transparent;
+  background-repeat: no-repeat;
+}
+
+.header-buatjanji {
+  margin: 40px auto;
+  background-color: #00a651;
+  color: #f6f7f8;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 80%;
+  border: 1px solid #00a651;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.pilih-kategori {
+  text-align: center;
+  background-color: transparent;
+  padding-top: 80px;
+}
+
+.pilih-dokter {
+  height: 100px;
+  width: 100vw;
+  background-color: transparent;
+  justify-content: center;
+  display: flex;
+  padding-top: 20px;
+}
+
+.dokter-1 {
+  height: 300px;
+  width: 800px;
+}
+
+.wrap-dokter {
+  /* padding: 20px; */
+  float: left;
+}
+
+.nama-dokter {
+  float: left;
+  padding-top: 60px;
+  color: #ac1941;
+  font-size: 40px;
+  /* font-size: 40px; */
+}
+
+.spesialisasi {
+  float: left;
+}
+
+/* end form-buatjanji */
+>>>>>>> Stashed changes
