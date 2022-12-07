@@ -4,7 +4,6 @@
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
   margin: 0;
-  background-color: #fff;
 }
 
 a {
@@ -881,4 +880,34 @@ input {
   justify-content: center;
   display: flex;
 }
+
 /*end isi artikel*/
+
+
+/*Chat Docter*/
+
+.wrap-content-chatDoc{
+  height: calc(100vh - 60px);
+  overflow: hidden;
+}
+
+.container-profile-doc{
+  width: 500px;
+  height: calc(100vh - 60px);
+  left: 0px;
+  top: -411px;
+  background: linear-gradient(180deg, #E1295B 0%, #A5163D 100%);
+  float: left;
+}
+
+.container-box-chat{
+  float: left;
+  width: 1271px;
+  height: calc(100vh - 60px);
+  left: 649px;
+  top: 0px;
+}
+
+
+
+/*end chat docter*/
