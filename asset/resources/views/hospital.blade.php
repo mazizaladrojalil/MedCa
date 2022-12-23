@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="{{ asset('css\style.css') }}" />
     <script src="main.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
 
@@ -10,22 +10,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rumah Sakit</title>
   </head>
-  <style>
-    body{
-      overflow-x: hidden;
-    }
-  </style>
   <body>
     <header>
       <div class="nav-container">
         <nav>
-          <a href="index.html"><div class="logo"></div></a>
+          <a href="/"><div class="logo"></div></a>
           <ul class="nav__links">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="/">Home</a></li>
             <li><a href="article.html">Artikel</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
-          <a href="login.html" class="cta"><button class="login">Login</button></a>
+          <a href="/login" class="cta"><button class="login">Login</button></a>
         </nav>
       </div>
     </header>
@@ -43,7 +38,7 @@
       </p>
 
       <div class="detail-button">
-        <a href="info-hospital.html"><input type="button" value="Detail" /></a>
+        <a href="/info-rs"><input type="button" value="Detail" /></a>
       </div>
 
       <div class="content-hospital">
@@ -67,6 +62,6 @@
         </ul>
       </div>
     </div>
-    <div class="footer"><img src="asset/footer.svg" alt="" /></div>
+    <div class="footer"><img src="/svg/footer.svg" alt="" /></div>
   </body>
 </html>

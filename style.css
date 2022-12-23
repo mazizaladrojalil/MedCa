@@ -131,10 +131,10 @@ p {
   background-image: url("asset/Clock.svg");
   background-color: #fff;
   position: absolute;
-  width: 423px;
+  width: 400px;
   height: 137px;
   top: 630px;
-  left: 1327px;
+  left: 1300px;
   box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
 }
 
@@ -532,6 +532,7 @@ input {
 }
 
 .ornament_1 {
+  animation: fadeIn 1.5s;
   position: absolute;
   top: -75px;
   right: 0;
@@ -542,7 +543,10 @@ input {
   height: 500px;
 }
 
+
+
 .ornament_2 {
+  animation: fadeIn 2s;
   position: fixed;
   bottom: -75px;
   right: -99px;
@@ -1083,3 +1087,10 @@ button.button-ajukan:hover{
 }
 
 /* end info-hospital */
+
+.footer{
+  background-color: #011627;
+  bottom: 0;
+  height: 56px;
+  width: 100vw;
+}
